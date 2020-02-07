@@ -1,0 +1,22 @@
+OpenCSI: 1
+info:
+  description: null
+  version: null
+  title: google_search
+  termsOfService: 'https://nimbella.com/terms'
+  contact: demo@nimbella.com
+  license:
+    name: 'Apache 2.0'
+    url: 'http://www.apache.org/licenses/LICENSE-2.0.html'
+sourceBasePath: '<unset>'
+commands:
+  g_image:
+    sourcePath: 'g_image.js'
+    description: null
+    parameters:
+      -
+        name: search
+      -
+        name: num
+        optional: true
+    options: []
